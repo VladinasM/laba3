@@ -16,8 +16,8 @@ L = phrase.split()
 print(len(min(L, key=len)), "and", len(max(L, key=len)))
    
 #1д
-ph2 = phrase.replace("a", "")
+ph2 = phrase.replace("*", "")
 doubleph2 = ""
 for i in range(len(ph2)):
    doubleph2 += ph2[i] * 2
-print(doubleph2)
+print("Удвоенные буквы без *", doubleph2)
