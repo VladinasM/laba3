@@ -1,6 +1,7 @@
 import random
 a = list()
-for i in range(16):
+n = int(input("Введите длину списка: ")
+for i in range(n):
    a.append(random.randint(-60, 60))
 print(a)
 x = 0
